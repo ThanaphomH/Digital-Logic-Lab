@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><circuit>  <version>2</version>  <attributes/>  <visualElements>    <visualElement>      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>FINALT1</string>
+        </entry>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>clock N reset start valid displayout done clockcount
+            program(99,183,239,24,109,113,147,248,108,168,224,36,130,98,82,45,227,187,98,241,166,122,206,216,106,32,220,239,155,108,56,168,136,202,194,117,216,39,207,214,3,237,110,48,176,11,189,184,4,134,78,17,221,92,142,33,77,207,185,243,85,255,159)
+0 63 0 0 X X X X
+1 63 0 0 X X X X
+0 63 1 0 X X X X
+1 63 1 0 X X X X
+0 63 0 1 X X X X
+1 63 0 1 X X X X
+repeat (40000) C 63 0 1 X X X X
+1 63 0 1 X X X 0xBAADBEEF
+</dataString>          </testData>        </entry>      </elementAttributes>      <pos x="800" y="580"/>    </visualElement>  </visualElements>  <wires/>  <measurementOrdering/></circuit>

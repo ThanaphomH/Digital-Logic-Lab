@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>In</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-260" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Output</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Invert selected bit.dig</elementName>
+      <elementAttributes/>
+      <pos x="160" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Get C1C2C3.dig</elementName>
+      <elementAttributes/>
+      <pos x="-160" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Transfrom to 7bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="0" y="-120"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-220" y="-20"/>
+      <p2 x="140" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-100"/>
+      <p2 x="160" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-120"/>
+      <p2 x="-220" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-120"/>
+      <p2 x="0" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-120"/>
+      <p2 x="140" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-120"/>
+      <p2 x="-160" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-60"/>
+      <p2 x="160" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="-80"/>
+      <p2 x="300" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-120"/>
+      <p2 x="-220" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-120"/>
+      <p2 x="140" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-60"/>
+      <p2 x="140" y="-20"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

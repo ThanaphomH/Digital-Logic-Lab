@@ -1,0 +1,59 @@
+$ ./testprog.sh 02.dig t0.txt
+Match!!
+Check Clocks: 14
+Report Clock: 14
+
+$ ./testprog.sh 02.dig t1.txt
+Match!!
+Check Clocks: 265
+Report Clock: 265
+
+$ ./testprog.sh 02.dig t2.txt
+Match!!
+Check Clocks: 769
+Report Clock: 769
+
+$ ./testprog.sh 02.dig t3.txt
+Match!!
+Check Clocks: 1276
+Report Clock: 1276
+
+$ ./testprog.sh 02.dig t4.txt
+Match!!
+Check Clocks: 383
+Report Clock: 383
+
+$ ./testprog.sh 02.dig t5.txt
+Match!!
+Check Clocks: 383
+Report Clock: 383
+
+$ ./testprog.sh 02.dig t6.txt
+Match!!
+Check Clocks: 505
+Report Clock: 505
+
+$ ./testprog.sh 02.dig t7.txt
+Match!!
+Check Clocks: 511
+Report Clock: 511
+
+$ ./testprog.sh 02.dig t8.txt
+Match!!
+Check Clocks: 767
+Report Clock: 767
+
+$ ./testprog.sh 02.dig t9.txt
+Match!!
+Check Clocks: 767
+Report Clock: 767
+
+$ ./testprog.sh 02.dig t10.txt
+Match!!
+Check Clocks: 1278
+Report Clock: 1278
+
+$ ./testprog.sh 02.dig t11.txt
+Match!!
+Check Clocks: 1025
+Report Clock: 1025
